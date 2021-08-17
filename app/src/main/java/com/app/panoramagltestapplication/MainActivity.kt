@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var plManager: PLManager
     private var currentIndex = -1
-    private val resourceIds = intArrayOf(R.raw.test, R.raw.test2)
+    private val resourceIds = intArrayOf(R.raw.test1, R.raw.test2)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
